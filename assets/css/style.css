@@ -6,4 +6,61 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
+    background-color: #989e9c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    width: 700px;
+    max-width: 70%;
+    border-radius: 10px;
+    background-color:  #72858C;
+    padding: 15px;
+    box-shadow: 0 0 20px;
+}
+
+.button-answers {
+    display: grid;
+    gap: 10px;
+    margin: 10px;
+    width: fit-content
+}
+
+.btn {
+    display: block;
+    border: solid white;
+    border-width: 10px;
+    font-size: 15px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    border-color: #30414B;
+}
+
+.start-button {
+    display: block;
+    border: solid white;
+    border-width: 10px;
+    font-size: 15px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.continue-button {
+    display: block;
+    border: solid white;
+    border-width: 10px;
+    font-size: 15px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
 }
